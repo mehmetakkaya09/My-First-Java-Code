@@ -36,11 +36,27 @@ public class _01ForLoops {
 //        }
 
 
-        for (int i = 20; i >= 0; i -= 5) {
-            System.out.println(i);
-        }
+//        for (int i = 20; i >= 0; i -= 5) {
+//            System.out.println(i);
+//        }
 
         // Druck von Zahlen zwischen 28 und 83, die sich um 8 erhöhen
+
+        // Finde die Summe der Zahlen von 1 bis 50
+        int sum = 0;
+
+        for (int i = 3; i <= 50 ; i++) {
+            sum += i;
+            //1
+            //3
+            //6
+        }
+
+        System.out.println(sum);
+
+        // Finde die Summe der gesamt Zahlen von 2 bis 50
+
+
 
 
 
