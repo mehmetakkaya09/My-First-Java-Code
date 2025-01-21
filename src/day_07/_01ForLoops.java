@@ -54,7 +54,16 @@ public class _01ForLoops {
 
         System.out.println(sum);
 
-        // Finde die Summe der gesamt Zahlen von 2 bis 50
+        // Finde die Summe der gerade Zahlen von 2 bis 50
+
+//        int i;
+//
+//        for (i = 0; i <= 10; i++){
+//            System.out.println(i);
+//        }
+//
+//        System.out.println("i = " + i);
+
 
 
 
