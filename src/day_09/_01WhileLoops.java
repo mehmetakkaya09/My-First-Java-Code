@@ -21,7 +21,7 @@ public class _01WhileLoops {
         int count = 0;
 
         while (userPassword != correctPassword) {
-            if (count == 3){
+            if (count == 3) {
                 System.out.println("Sie hatten nur 3 Versuch");
                 break;
             }
@@ -44,8 +44,7 @@ public class _01WhileLoops {
         System.out.println("Anmeldung erfolgreich");
 
 
-
-
+        scanner.close();
 
     }
 

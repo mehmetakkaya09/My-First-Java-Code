@@ -25,14 +25,14 @@ public class _08NestedIfTernaryExample {
             max = num1;
         } else if (num2 > num3) {
             max = num2;
-        }else
+        } else
             max = num3;
 
         max = (num1 > num2 && num1 > num3) ? num1 : (num2 > num3) ? num2 : num3;
 
         System.out.println(max);
 
-
+        scanner.close();
     }
 
 

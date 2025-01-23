@@ -41,14 +41,12 @@ public class _06MultiwayTernaryExample {
                 : "F";
 
 
-
         System.out.println("Your note is: " + noteStr);
 
-
+        sc.close();
 
 
     }
-
 
 
 }

@@ -23,9 +23,8 @@ public class _07SwitchTernaryExample {
 
         System.out.println("Today is " + dayStr);
 
-
+        scanner.close();
     }
-
 
 
 }

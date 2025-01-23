@@ -27,9 +27,8 @@ public class _02ForLoops2 {
 
         System.out.println(factorial + " factorial is " + sum);
 
-
+        sc.close();
     }
-
 
 
 }

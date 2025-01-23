@@ -23,7 +23,7 @@ public class _02AgeWhileLoop {
         }
 
         System.out.println("Sie können registrieren");
-
+        sc.close();
     }
 
 

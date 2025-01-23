@@ -52,6 +52,8 @@ public class _01Scanner {
         String satz = input.nextLine();
 
         System.out.println("satz nextLine() = " + satz);
+
+        input.close();
     }
 
 

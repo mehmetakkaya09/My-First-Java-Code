@@ -11,7 +11,7 @@ public class _04TernariesExample {
         System.out.print("Please enter your age: ");
         int age = scanner.nextInt();
 
-        String message = age >=18 ? "You are eligible to vote" : "You are not eligible to vote";
+        String message = age >= 18 ? "You are eligible to vote" : "You are not eligible to vote";
 
 //        if (age >= 18) {
 //            message = "You are eligible to vote";
@@ -20,7 +20,7 @@ public class _04TernariesExample {
 
         System.out.println(message);
 
-
+        scanner.close();
 
 
     }

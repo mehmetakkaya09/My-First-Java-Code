@@ -20,7 +20,7 @@ public class _04Break {
             }
             System.out.println(i);
         }
-
+        sc.close();
 
     }
 

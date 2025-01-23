@@ -24,9 +24,7 @@ public class _02ScannerFormExample {
 
         System.out.println(firstName);
 
-
-
-
+        input.close();
 
 
     }

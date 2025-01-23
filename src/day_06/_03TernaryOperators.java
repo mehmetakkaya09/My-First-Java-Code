@@ -15,7 +15,7 @@ public class _03TernaryOperators {
 
         if (num > 0) {
             System.out.println(num + " is positive");
-        }else
+        } else
             System.out.println(num + " is negative");
 
         String res = num > 0 ? num + " is positive" : num + " is negative";
@@ -27,13 +27,7 @@ public class _03TernaryOperators {
         System.out.println(res);
 
 
-
-
-
-
-
-
-
+        sc.close();
 
 
     }
