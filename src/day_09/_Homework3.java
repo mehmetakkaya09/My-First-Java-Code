@@ -13,14 +13,28 @@ public class _Homework3 {
         Scanner input = new Scanner(System.in);
         String bericht = "Prüfungsnoten der Studierenden und ihre Durchschnittnote\n";
 
-        while (true){
+        loop1:
+        while (true) {
 
             System.out.print("Geben Sie die Matrikelnummer des Studierenden ein : ");
             matrikelNummer = input.nextInt();
-
+//            loop2:
+//            while (true) {
+//                System.out.println("loop 2");
+//                loop3:
+//                while (true) {
+//                    System.out.println("loop 3");
+//                    loop4:
+//                    while (true) {
+//                        System.out.println("loop 4");
+//                        break loop1;
+//                    }
+//                }
+//            }
             if (matrikelNummer == 0) {
-                break;
+                break loop1;
             }
+
 
             System.out.print("Erste Prüfungsnote von Studierenden mit nummer " + matrikelNummer + ": ");
             exam1 = input.nextInt();
@@ -30,7 +44,7 @@ public class _Homework3 {
             durchschnitt = (exam1 + exam2) / 2;
 
             bericht += "Matrikelnummer = " + matrikelNummer + " - " +
-                    "Prüfung 1 = " + exam1 +", " +
+                    "Prüfung 1 = " + exam1 + ", " +
                     "Prüfung 2 = " + exam2 +
                     " -> Durchschnittnote = " + durchschnitt + "\n";
 
