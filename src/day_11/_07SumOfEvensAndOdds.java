@@ -11,7 +11,6 @@ public class _07SumOfEvensAndOdds {
         // zweite method wird ein int Zahl bekommen und von 1 bis diese Zahl werden Sie ungerade Zahlen addieren(sumOfOdds)
 
 
-
     }
 
 
