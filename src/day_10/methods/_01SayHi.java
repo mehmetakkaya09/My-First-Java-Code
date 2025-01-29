@@ -16,8 +16,6 @@ public class _01SayHi {
         System.out.println("Mein Bruder ist gekommen");
         sayHi();
 
-
-
     }
 
     public static void sayHi() {

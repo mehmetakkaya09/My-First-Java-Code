@@ -6,8 +6,9 @@ public class Variables {
 
         // byte short int long
         // float double
-        // char
-        // boolean
+        // char 'c'
+        // boolean - true false
+        // String "str"
         int number;
         number = 3;
         double salary = 10000.5;

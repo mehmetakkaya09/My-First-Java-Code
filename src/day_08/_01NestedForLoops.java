@@ -4,9 +4,9 @@ public class _01NestedForLoops {
 
     public static void main(String[] args) {
 
-        for (int i = 2; i < 9; i++) {
+        for (int i = 2; i < 9; i++) {                    //zeilen
             System.out.println("Outer Loop " + i);
-            for (int j = 0; j < 6; j++) {
+            for (int j = 0; j < 6; j++) {                //spalten
                 System.out.println("Inner Loop " + j);
             }
             System.out.println();

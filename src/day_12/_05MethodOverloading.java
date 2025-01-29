@@ -24,8 +24,8 @@ public class _05MethodOverloading {
         return a + b;
     }
 
-    public static int sum(double asd, int bnm) {
-        return bnm;
+    public static double sum(double asd, int bnm) {
+        return asd + bnm;
     }
 
     public static int sum(int a, double b) {

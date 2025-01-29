@@ -13,7 +13,7 @@ public class _02EscapeCharacters {
 
         System.out.println("C:\\Users\\peace\\IdeaProjects\\My-First-Java-Code\\src");
 
-        System.out.println("john\tdoe");
+        System.out.println("john\tdoe");//tab   space
 
         System.out.println("Hello\b world");
 

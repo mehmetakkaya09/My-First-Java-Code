@@ -12,6 +12,10 @@ public class _01IfStatements {
             System.out.println("letzte Reihe");
         }
 
+//        if (wetter == "sonnig"){
+//            System.out.println("Ich kann schwimmen");
+//        }
+
         int num = -5;
 
         if (num > 0){ //
@@ -48,7 +52,7 @@ public class _01IfStatements {
 
         //System.out.println(b2);
 
-        if (num2 % 5 == 0){
+        if (num2 % 5 == 0) {
             System.out.println("Hi Five");
         }
 

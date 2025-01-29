@@ -24,7 +24,7 @@ public class _03LogicalOperatorAND {
         int i1 = 10;
         int i2 = 15;
 
-        boolean res = (i1 <= i2) && (i1 >= i2);
+        boolean res = (i1 <= i2) & (i1 >= i2);
 
         System.out.println(res);
 

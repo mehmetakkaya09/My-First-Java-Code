@@ -9,9 +9,9 @@ public class _02IfElseStatement {
 
         int alt = -6;
 
-        if (alt >= 18){
+        if (alt >= 18) {
             System.out.println("Wahlberechtigt");
-        }else {
+        } else {
             System.out.println("Nicht Wahlberechtigt");
         }
 
@@ -19,9 +19,9 @@ public class _02IfElseStatement {
 
         int num3 = 4;
 
-        if(num3 % 2 == 0){
+        if (num3 % 2 == 0) {
             System.out.println(num3 + " ist ein gerades Zahl");
-        }else {
+        } else {
             System.out.println(num3 + " ist ein ungerades Zahl");
         }
 
@@ -33,10 +33,10 @@ public class _02IfElseStatement {
         double area = 0;
         double pi = 3.14;
 
-        if (radius > 0){
+        if (radius > 0) {
             area = pi * radius * radius;
             System.out.println(area);
-        }else {
+        } else {
             System.out.println(radius + " ist ein negatives Wert");
         }
 
@@ -49,15 +49,11 @@ public class _02IfElseStatement {
         int alt3 = 20;
         boolean isStudent = true;
 
-        if (alt3 >= 18 && alt3 <= 30 && isStudent){
+        if (alt3 >= 18 && alt3 <= 30 && isStudent) {
             System.out.println("Diese Person ist passend");
-        }else {
+        } else {
             System.out.println("Diese Person ist nicht passend");
         }
-
-
-
-
 
 
     }
