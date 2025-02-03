@@ -32,6 +32,17 @@ public class PersonImpl {
         System.out.println("System.identityHashCode(firstname2) = " + System.identityHashCode(firstname2));
 
 
+        Person person3 = new Person();
+        person3.firstname = "mehmet";
+
+        Person person4 = new Person();
+
+
+        person4.firstname = new String("mehmet");
+
+        person4.firstname = person4.firstname.intern();
+
+        System.out.println(person3.firstname == person4.firstname);
 
 
     }
