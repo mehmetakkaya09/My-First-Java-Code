@@ -1,10 +1,14 @@
-package day_16;
+package day_15;
+
+
+import day_16.person.*;
 
 public class PersonImpl {
 
     public static void main(String[] args) {
 
         // mehmet
+        Vehicle vehicle = new Vehicle();
 
         Person person = new Person(); // 80_000_000
         person.firstname = "mehmet"; // + anstatt 1_000_000 Objekt verwendet Java 1 Objekt in String pool.

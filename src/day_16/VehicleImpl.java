@@ -1,5 +1,7 @@
 package day_16;
 
+import day_16.person.Vehicle;
+
 public class VehicleImpl {
 
     public static void main(String[] args) {

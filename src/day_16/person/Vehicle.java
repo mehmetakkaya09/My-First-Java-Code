@@ -1,4 +1,4 @@
-package day_16;
+package day_16.person;
 
 public class Vehicle {
     // fields
