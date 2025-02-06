@@ -23,6 +23,10 @@ public class _03IndexOf {
         findIndexOfWord(str, "Java");
         findIndexOfWord(str, "ist");
 
+        System.out.println("str.lastIndexOf(\"Java\") = " + str.lastIndexOf("Java"));
+        System.out.println("str.lastIndexOf(\"ist\") = " + str.lastIndexOf("ist"));
+        System.out.println("str.lastIndexOf(\"e\") = " + str.lastIndexOf("e"));
+
     }
 
     public static void findIndexOfWord(String fullString, String word) {
