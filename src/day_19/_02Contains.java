@@ -49,11 +49,22 @@ public class _02Contains {
             strSpecial = specialCharCheck(vorname, specials);
             strLength = isLengthValid(vorname, 3);
         } while (strSpecial || strLength);
+
+
     }
 
     public static boolean specialCharCheck(String str, String specials) {
 
         boolean result = false;
+
+        String actualResult = "Eurotech";
+        String expectedResult = "Eurotech";
+
+        if (actualResult.contains(expectedResult)) {
+            System.out.println("Test Passed");
+        }else {
+            System.out.println("Test Failed");
+        }
 
         for (int i = 0; i < specials.length(); i++) {
             boolean isContain = str.contains(specials.charAt(i) + "");
@@ -63,6 +74,7 @@ public class _02Contains {
                 //break;
             }
         }
+
         return result;
     }
 
