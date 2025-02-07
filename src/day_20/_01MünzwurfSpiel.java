@@ -71,6 +71,4 @@ public class _01MünzwurfSpiel {
 
         return punktzahl;
     }
-
-
 }
