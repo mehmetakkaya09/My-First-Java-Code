@@ -18,20 +18,24 @@ public class _01MünzwurfSpiel {
         int runde = 5;
         int punktzahl = 0;
 
+        spielSpielen(runde, punktzahl);
 
     }
 
     public static void spielSpielen(int runde, int punktzahl) {
 
         for (int i = 1; i <= runde; i++) {
-            System.out.println(runde + ". Runde: Bitte gib deine Vorhersage ein:");
+            System.out.println(i + ". Runde: Bitte gib deine Vorhersage ein:");
             String benutzerVorhersage = gibVorhersageEin();
             String münzwurf = führeMünzwurfSpielAus();
-
+            punktzahl = vergleiche(benutzerVorhersage, münzwurf, punktzahl);
+            System.out.println("**********************************************");
         }
+        System.out.println("Spiel beendet! In " + runde + " Runden betragt deine Punktzahl: " + punktzahl);
+        ;
     }
 
-    public static String gibVorhersageEin(){
+    public static String gibVorhersageEin() {
         System.out.println("******** Willkommen beim Münzwurf-Spiel **********");
         System.out.println("Gib bei jedem Wurf 'kopf' oder 'zahl' als Vorhersage ein");// KOPF
         Scanner scanner = new Scanner(System.in);
@@ -39,7 +43,7 @@ public class _01MünzwurfSpiel {
         return vorhersage;
     }
 
-    public static String führeMünzwurfSpielAus(){
+    public static String führeMünzwurfSpielAus() {
         Random r = new Random();
         int ergebnis = r.nextInt(2);
         String münzwurf = "";
@@ -49,15 +53,24 @@ public class _01MünzwurfSpiel {
 //            münzwurf = "zahl";
 //        }
 
-        münzwurf = (ergebnis==0) ? "kopf" : "zahl";
+        münzwurf = (ergebnis == 0) ? "KOPF" : "ZAHL";
 
         System.out.println("Ergebnis des Münzwurfs: " + münzwurf);
 
-        return münzwurf;
+        return münzwurf.toLowerCase();
 
     }
 
+    public static int vergleiche(String benutzerVorhersage, String münzwurf, int punktzahl) {
 
+        if (benutzerVorhersage.equals(münzwurf)) {
+            System.out.println("Richtige Vorhersage!");
+            punktzahl++;
+        } else
+            System.out.println("Falsche Vorhersage!");
+
+        return punktzahl;
+    }
 
 
 }
