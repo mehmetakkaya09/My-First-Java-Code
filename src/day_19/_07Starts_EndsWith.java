@@ -14,7 +14,6 @@ public class _07Starts_EndsWith {
         System.out.println("start2 = " + start2);
 
         boolean end1 = str.endsWith("ist sehr leicht");
-
         System.out.println("end1 = " + end1);
 
         boolean end2 = str.endsWith("Java");
