@@ -20,13 +20,6 @@ public class _02Arrays2 {
         System.out.println(prozenteArr[3]);
 
 
-
-
-
-
-
-
-
     }
 
 }
