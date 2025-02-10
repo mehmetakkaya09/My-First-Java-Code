@@ -31,29 +31,30 @@ public class _05GeometryCalculation {
 
     }
 
-    public static double berechneKreisFlache(double radius){
-        return Math.round(Math.PI * Math.pow(radius,2));
+    public static double berechneKreisFlache(double radius) {
+        return Math.round(Math.PI * Math.pow(radius, 2));
     }
-    public static double berechneKreisUmfang(double radius){
+
+    public static double berechneKreisUmfang(double radius) {
         return Math.round(2 * (radius * Math.PI));
     }
 
-    public static double berechneRechteckFlache(int breite, int lange){
-        double flache = Math.multiplyExact(breite,lange);
+    public static double berechneRechteckFlache(int breite, int lange) {
+        double flache = Math.multiplyExact(breite, lange);
         return Math.round(flache);
     }
 
-    public static double berechneRechteckUmfang(int breite, int lange){
-        double umfang = 2 * Math.addExact(breite,lange);
+    public static double berechneRechteckUmfang(int breite, int lange) {
+        double umfang = 2 * Math.addExact(breite, lange);
         return Math.round(umfang);
     }
 
-    public static double berechneHypotenuse(double a, double b){
-        return Math.round(Math.sqrt(Math.pow(a,2) + Math.pow(b,2)));
+    public static double berechneHypotenuse(double a, double b) {
+        return Math.round(Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2)));
     }
 
-    public static double berechneZylindervolumen(double radius, double hoehe){
-        return Math.round(Math.PI + Math.pow(radius,2) * hoehe);
+    public static double berechneZylindervolumen(double radius, double hoehe) {
+        return Math.round(Math.PI + Math.pow(radius, 2) * hoehe);
     }
 
 

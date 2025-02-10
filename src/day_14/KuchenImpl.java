@@ -19,6 +19,7 @@ public class KuchenImpl {
         kuchen2.baecker = "Vadim";
         kuchen2.essen();
 
+        System.out.println("Kuchen.gesamtStuecke = " + Kuchen.gesamtStuecke);
 
     }
 
