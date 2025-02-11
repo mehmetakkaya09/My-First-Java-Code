@@ -39,13 +39,6 @@ public class _08SearchProdukt {
 
 
 
-
-
-
-
-
-
-
     }
 
 
