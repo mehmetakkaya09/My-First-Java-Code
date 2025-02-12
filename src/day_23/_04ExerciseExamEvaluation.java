@@ -22,23 +22,19 @@ public class _04ExerciseExamEvaluation {
         for (int student = 0; student < answers.length; student++) {
             int richtigeAntworten = 0;
             int falscheAntworten = 0;
-
+            String falscheAntwortenString = "";
             for (int frage = 0; frage < answers[student].length; frage++) {
                 if (answers[student][frage] == keys[frage]) {
                     richtigeAntworten++;
-                }else {
+                } else {
                     falscheAntworten++;
+                    falscheAntwortenString += (frage + 1) + "-" + answers[student][frage] + " ";
                 }
             }
             System.out.println((student + 1) + ". Student Anzahl richtiger Antworten: " + richtigeAntworten);
-            System.out.println((student + 1) + ". Student Anzahl falscher Antworten: " + falscheAntworten);
+            System.out.println((student + 1) + ". Student Anzahl falscher Antworten: " + falscheAntworten + " - " + falscheAntwortenString);
             System.out.println();
         }
-
-
-
-
-
 
 
     }
