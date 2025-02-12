@@ -1,5 +1,7 @@
 package day_22;
 
+import utils.ArrayUtil;
+
 public class _05PrintArray {
 
     public static void main(String[] args) {

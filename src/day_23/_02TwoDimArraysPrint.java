@@ -1,5 +1,7 @@
 package day_23;
 
+import utils.ArrayUtil;
+
 import java.util.Arrays;
 
 public class _02TwoDimArraysPrint {
@@ -53,7 +55,13 @@ public class _02TwoDimArraysPrint {
             System.out.println(Arrays.toString(user));
         }
 
+        int[][] nums = {
+                {2,6,7,8},
+                {4,8,1,9},
+                {1,1,0,3}
+        };
 
+        ArrayUtil.print2DimArray(nums);
     }
 
 }

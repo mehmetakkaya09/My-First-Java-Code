@@ -1,4 +1,4 @@
-package day_22;
+package utils;
 
 public class ArrayUtil {
 
@@ -40,4 +40,27 @@ public class ArrayUtil {
         }
         return resultArr;
     }
+
+    public static void print2DimArray(int[][] arr) {
+        for (int i = 0; i < arr.length; i++) { // für Zeilen
+            for (int j = 0; j < arr[i].length; j++) { // für Spalten
+                System.out.print(arr[i][j] + " ");
+            }
+            System.out.println();
+        }
+    }
+
+    public static void print2DimArray(String[][] arr) {
+        for (String[] row : arr) {
+            for (String column : row) {
+                System.out.print(column + " ");
+            }
+            System.out.println();
+        }
+    }
+
+
+
+
+
 }
