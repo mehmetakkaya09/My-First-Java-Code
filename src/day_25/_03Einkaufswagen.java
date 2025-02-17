@@ -47,6 +47,7 @@ public class _03Einkaufswagen {
                 gesamtRabattBetrag += rabattierterProduktPreis;
             } else {
                 rabattierterProduktPreis = produktPreis;
+                gesamtRabattBetrag += produktPreis;
             }
 
             System.out.println("Produktname: " + produktName);
