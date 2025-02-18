@@ -52,6 +52,18 @@ public class _01ArrayLists {
         System.out.println(vornamen.get(0));
         System.out.println(vornamen.get(2));
 
+        System.out.println(vornamenArray.length);
+        System.out.println(vornamen.size());
+        System.out.println(numbers.size());
+
+        // toString() method verwendet man, um eine Objekt zu einer String umzuwandeln.
+
+        String firstnames = vornamen.toString();
+        System.out.println(firstnames);
+
+        String numStr = numbers.toString();
+        System.out.println(numStr);
+
 
     }
 }
