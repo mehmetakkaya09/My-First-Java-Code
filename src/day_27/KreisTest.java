@@ -15,9 +15,12 @@ public class KreisTest {
         System.out.println("kreis.getVolumen() = " + kreis.getVolumen());
 
         Kreis kreis2 = new Kreis(2);
+        //kreis2.radius = 8;
+        kreis2.setRadius(8);
 
         System.out.println("kreis2.radius = " + kreis2.radius);
-        kreis2.höhe = 5;
+        //kreis2.höhe = 5;
+        kreis2.setHöhe(5);
 
         System.out.println("kreis2.getFlaeche() = " + kreis2.getFlaeche());
         System.out.println("kreis2.getUmfang() = " + kreis2.getUmfang());
@@ -25,8 +28,8 @@ public class KreisTest {
 
         Kreis kreis3 = new Kreis(5,7);
 
-        System.out.println("kreis3.höhe = " + kreis3.höhe);
-        System.out.println("kreis3.radius = " + kreis3.radius);
+        System.out.println("kreis3.getRadius() = " + kreis3.getRadius());
+        System.out.println("kreis3.getHöhe() = " + kreis3.getHöhe());
         System.out.println("kreis3.getFlaeche() = " + kreis3.getFlaeche());
         System.out.println("kreis3.getUmfang() = " + kreis3.getUmfang());
         System.out.println("kreis3.getVolumen() = " + kreis3.getVolumen());

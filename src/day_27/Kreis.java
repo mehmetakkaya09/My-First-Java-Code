@@ -40,7 +40,21 @@ public class Kreis {
     public double getVolumen(){
         return getFlaeche() * höhe;
     }
+    // setter methoden
+    public void setRadius(double neueRadius){
+        this.radius = neueRadius;
+    }
+    public void setHöhe(double neueHöhe){
+        höhe = neueHöhe;
+    }
+    // getter methoden
+    public double getRadius() {
+        return this.radius;
+    }
 
+    public double getHöhe(){
+        return höhe;
+    }
 
 
 
