@@ -17,6 +17,7 @@ public class KreisTest {
         Kreis kreis2 = new Kreis(2);
 
         System.out.println("kreis2.radius = " + kreis2.radius);
+        kreis2.höhe = 5;
 
         System.out.println("kreis2.getFlaeche() = " + kreis2.getFlaeche());
         System.out.println("kreis2.getUmfang() = " + kreis2.getUmfang());

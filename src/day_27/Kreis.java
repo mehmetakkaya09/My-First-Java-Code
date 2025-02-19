@@ -3,7 +3,7 @@ package day_27;
 public class Kreis {
 
     public double radius; // 0
-    public double höhe;
+    public double höhe; // 0
 
     // driver
 
