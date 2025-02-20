@@ -22,12 +22,21 @@ public class BankTest {
 
         bank1.kundeHinzufügen(kunde2);
 
-        bank2.kundenListe();
+        //bank2.kundenListe();
+
+        System.out.println("kunde1.kontostand = " + kunde1.kontostand);
+
+        bank2.geldEinzahlen(kunde1, 10);
+        System.out.println("kunde1.kontostand = " + kunde1.kontostand);
+
+        System.out.println("kunde2.kontostand = " + kunde2.kontostand);
+        bank2.geldEinzahlen(kunde2,100);
+        System.out.println("kunde2.kontostand = " + kunde2.kontostand);
+
+        bank2.geldAbheben(kunde2,100);
+        System.out.println("kunde2.kontostand = " + kunde2.kontostand);
 
 
 
     }
-
-
-
 }

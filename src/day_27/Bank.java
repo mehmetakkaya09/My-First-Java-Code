@@ -30,7 +30,7 @@ public class Bank {
         System.out.println("Für den Kunden " + kunde.name + " " + kunde.nachname + " wurde ein Bankkonto mit der Kontonummer " + kunde.kontoNummer + " eröffnet.");
     }
 
-    public void kundenListe(){
+    public void kundenListe() {
         for (Kunde kunde : kunden) {
             System.out.println("kunde.name = " + kunde.name);
             System.out.println("kunde.nachname = " + kunde.nachname);
@@ -40,6 +40,24 @@ public class Bank {
             System.out.println("------------------------------");
         }
     }
+
+    public void geldEinzahlen(Kunde kunde, double betrag) {
+        if (betrag > 0){
+            kunde.kontostand += betrag;
+        }else {
+            System.out.println("Bitte geben Sie ein pozitives Zahl");
+        }
+    }
+
+    public void geldAbheben(Kunde kunde, double betrag){
+        if (betrag > 0 && kunde.kontostand >= betrag) {
+            kunde.kontostand -= betrag;
+        }else {
+            System.out.println("Ihre Kontostand ist nicht ausreichend!!");
+            System.out.println("Sie können maximal " + kunde.kontostand + " Euro abheben!");
+        }
+    }
+
 
 
 }
