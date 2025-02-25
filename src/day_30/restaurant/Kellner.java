@@ -2,6 +2,11 @@ package day_30.restaurant;
 
 public class Kellner {
 
+    // name muss mindestens 2 Buchstaben und keine Sonderzeichen beinhalten
+    // mitarbeiterID kann nur zwischen 1000 - 1999 sein
+    // stundenlohn kann nicht negative sein
+
+
     //Name (String), MitarbeiterID (int), Stundenlohn (double), Vollzeit (boolean)
     private String name;
     private int mitarbeiterID;

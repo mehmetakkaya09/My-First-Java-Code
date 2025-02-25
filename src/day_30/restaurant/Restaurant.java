@@ -4,6 +4,10 @@ import java.util.ArrayList;
 
 public class Restaurant {
 
+    // besitzer muss mindestens 2 Buchstaben und keine Sonderzeichen beinhalten
+    // standort muss mindestens 2 Buchstaben und keine Sonderzeichen beinhalten
+    // sterneAnzahl  kann nur zwischen 1 - 5 sein
+
     private String besitzer;
     private String standort;
     private int sterneAnzahl;

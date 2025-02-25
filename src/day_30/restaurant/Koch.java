@@ -2,6 +2,10 @@ package day_30.restaurant;
 
 public class Koch {
 
+    // name muss mindestens 2 Buchstaben und keine Sonderzeichen beinhalten
+    // mitarbeiterID kann nur zwischen 2000 - 2999 sein
+    // stundenlohn kann nicht negative sein
+
     private String name;
     private int mitarbeiterID;
     private double stundenlohn;
