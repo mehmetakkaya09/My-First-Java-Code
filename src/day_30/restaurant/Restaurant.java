@@ -40,6 +40,54 @@ public class Restaurant {
         this.sterneAnzahl = sterneAnzahl;
     }
 
+    public void addKellner(Kellner kellner){
+        kellners.add(kellner);
+    }
+
+    public void addKellner(Kellner[] kellnerArr){
+        for (Kellner kellner : kellnerArr) {
+            kellners.add(kellner);
+        }
+    }
+
+    public void addKoch(Koch koch){
+        kochers.add(koch);
+    }
+
+    public void addKoch(Koch[] kochArr){
+        for (Koch koch : kochArr) {
+            kochers.add(koch);
+        }
+    }
+
+    public void removeKoch(int mitarbeiterID){
+        for (int i = 0; i < kochers.size(); i++) {
+            if (kochers.get(i).getMitarbeiterID() == mitarbeiterID) {
+                kochers.remove(i);
+                break;
+            }
+        }
+    }
+
+    public void removeKellner(int mitarbeiterID){
+        for (int i = 0; i < kellners.size(); i++) {
+            if (kellners.get(i).getMitarbeiterID() == mitarbeiterID) {
+                kellners.remove(i);
+                break;
+            }
+        }
+    }
+
+    @Override
+    public String toString() {
+        return "Restaurant{" +
+                "besitzer='" + besitzer + '\'' +
+                ", standort='" + standort + '\'' +
+                ", sterneAnzahl=" + sterneAnzahl +
+                ", kellnersAnzahl=" + kellners.size() +
+                ", kochersAnzahl=" + kochers.size() +
+                '}';
+    }
 }
 
 //Attribute:

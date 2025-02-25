@@ -64,7 +64,7 @@ public class Koch {
                 "name='" + name + '\'' +
                 ", mitarbeiterID=" + mitarbeiterID +
                 ", stundenlohn=" + stundenlohn +
-                ", vollzeit=" + vollzeit +
+                ", Vollzeitstatus=" + (vollzeit ? "Vollzeit" : "Teilzeit") +
                 '}';
     }
 }
