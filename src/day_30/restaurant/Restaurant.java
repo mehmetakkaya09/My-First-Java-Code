@@ -1,8 +1,44 @@
 package day_30.restaurant;
 
+import java.util.ArrayList;
+
 public class Restaurant {
 
+    private String besitzer;
+    private String standort;
+    private int sterneAnzahl;
+    private ArrayList<Kellner> kellners = new ArrayList<>();
+    private ArrayList<Koch> kochers = new ArrayList<>();
 
+    public Restaurant(String besitzer, String standort, int sterneAnzahl) {
+        setBesitzer(besitzer);
+        setStandort(standort);
+        setSterneAnzahl(sterneAnzahl);
+    }
+
+    public String getBesitzer() {
+        return besitzer;
+    }
+
+    public void setBesitzer(String besitzer) {
+        this.besitzer = besitzer;
+    }
+
+    public String getStandort() {
+        return standort;
+    }
+
+    public void setStandort(String standort) {
+        this.standort = standort;
+    }
+
+    public int getSterneAnzahl() {
+        return sterneAnzahl;
+    }
+
+    public void setSterneAnzahl(int sterneAnzahl) {
+        this.sterneAnzahl = sterneAnzahl;
+    }
 
 }
 
