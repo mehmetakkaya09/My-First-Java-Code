@@ -6,13 +6,18 @@ public class _02EncapsulationTest {
 
         _01Encapsulation obj1 = new _01Encapsulation("/*/)(/", 23423);
 
-        System.out.println("obj1.name = " + obj1.name);
+        System.out.println("obj1.getName = " + obj1.getName());
         System.out.println("obj1.getAge = " + obj1.getAge());
 
         obj1.setAge(150);
+        obj1.setName("+%/+%");
 
+        System.out.println("obj1.getName = " + obj1.getName());
         System.out.println("obj1.getAge = " + obj1.getAge());
 
+        obj1.setName("        Joe     ");
+
+        System.out.println("obj1.getName = " + obj1.getName());
     }
 
 
