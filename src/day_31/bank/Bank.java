@@ -44,7 +44,7 @@ public class Bank {
         String str = "Bankname: " + name + "\n"
                 + "Bankadresse: " + adresse + "\n"
                 + "Kunden der Bank\n"
-                + "-------------------";
+                + "-------------------\n";
 
         for (Kunde kunde : kunden) {
             str += kunde + "\n";
