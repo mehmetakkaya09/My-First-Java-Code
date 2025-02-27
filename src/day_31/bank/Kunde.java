@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Kunde {
 
     private String name;
-    private ArrayList<Konto> konten;
+    private ArrayList<Konto> konten; // jede person kann nur eigene konten erreichen
 
     public Kunde(String name) {
         setName(name);
