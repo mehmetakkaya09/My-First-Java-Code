@@ -34,5 +34,5 @@ public class _01StaticMethods {
         staticMethod();
     }
 
-
+    //System.out.println(staticVariable);
 }
