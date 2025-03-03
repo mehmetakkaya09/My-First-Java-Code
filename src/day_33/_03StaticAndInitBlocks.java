@@ -21,11 +21,16 @@ public class _03StaticAndInitBlocks {
     }
 
     public _03StaticAndInitBlocks() {
+        System.out.println("KONSTRUCTOR FUNKTIONIERT");
     }
 
     {
         System.out.println("INIT BLOCK FUNKTIONIERT");
         this.stadt= "unbekannt";
+    }
+
+    {
+        System.out.println("INIT BLOCK 2 FUNKTIONIERT");
     }
 
     static {
