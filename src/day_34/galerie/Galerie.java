@@ -6,11 +6,11 @@ public class Galerie {
 
     private String name;
     private String adresse;
-    private ArrayList<Auto> autos;
-    private ArrayList<Auto> verkaufteAutos;
+    private ArrayList<Auto> autos; // a hat 6 autos. b hat 9 autos. c hat 3 autos...
+    private ArrayList<Auto> verkaufteAutos; // a verkaufte 2 autos. b verkaufte 3 autos. c verkaufte 1 auto
 
-    private static ArrayList<Auto> alleAutos;
-    private static ArrayList<Auto> alleVerkaufteAutos;
+    private static ArrayList<Auto> alleAutos; // gemeinsame List hat 18 autos
+    private static ArrayList<Auto> alleVerkaufteAutos; // gemeinsam wurde 6 autos verkauft
 
     static {
         alleAutos = new ArrayList<>();
