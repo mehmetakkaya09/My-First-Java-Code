@@ -13,4 +13,11 @@ public class StudentChild2 extends Student{
     public StudentChild2(String name, int age) {
         super(name, age);
     }
+
+    public void method() {
+
+         super.geschlecht = 'F';
+         super.nummer = 5;
+
+    }
 }

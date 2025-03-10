@@ -28,6 +28,15 @@ public class AccessModifiersTest {
         //Student student = new Student("mehmet",33);
 
         StudentChild studentChild = new StudentChild("Vadim", 26);
+
+        Student student = new Student();
+
+        //student.nummer = 3;
+        student.adresse = "Berlin";
+
+        student.publicField = 8;
+
+
     }
 
 
