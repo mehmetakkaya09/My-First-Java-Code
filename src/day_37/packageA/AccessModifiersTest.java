@@ -1,5 +1,7 @@
 package day_37.packageA;
 
+import day_37.constructor.Student;
+
 public class AccessModifiersTest {
 
     public static void main(String[] args) {
@@ -23,6 +25,9 @@ public class AccessModifiersTest {
         accessModifiers.publicModifierField = 2.0;
         accessModifiers.publicModifierMethod();
 
+        //Student student = new Student("mehmet",33);
+
+        StudentChild studentChild = new StudentChild("Vadim", 26);
     }
 
 
