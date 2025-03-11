@@ -34,7 +34,7 @@ public class BankKonto {
             System.out.println("Ungültiger Einzahlungsbetrag");
         }
     }
-
+    // 5000 + 1000 = 6000
     public void abheben(double betrag) {
         if (betrag > 0 && betrag <= saldo) {
             saldo -= betrag;
