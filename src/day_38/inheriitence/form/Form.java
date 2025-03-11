@@ -36,4 +36,5 @@ public class Form {
                 "farbe='" + farbe + '\'' +
                 '}';
     }
+
 }

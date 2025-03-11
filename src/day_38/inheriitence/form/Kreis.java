@@ -35,7 +35,8 @@ public class Kreis extends Form {
     public String toString() {
         return "Kreis{" +
                 "farbe='" + super.getFarbe() + '\'' +
-                "radius=" + radius +
+                ", radius=" + radius +
+                ", flaeche=" + flaecheBerechnen() +
                 '}';
     }
 }

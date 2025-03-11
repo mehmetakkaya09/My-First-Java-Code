@@ -30,13 +30,13 @@ public class Rechteck extends Form{
 
     @Override
     public void zeichnen() {
-        super.zeichnen();
+        System.out.println("Eine Rechteck wird gezeichnet..");
     }
 
     // laange * breite
     @Override
     public double flaecheBerechnen() {
-        return super.flaecheBerechnen();
+        return this.laenge * this.breite;
     }
 
     // fügen Sie Farbeinfo und Flaecheinfo hinzu
@@ -45,6 +45,8 @@ public class Rechteck extends Form{
         return "Rechteck{" +
                 "laenge=" + laenge +
                 ", breite=" + breite +
+                ", farbe=" + super.getFarbe() +
+                ", flaeche=" + flaecheBerechnen() +
                 '}';
     }
 }
