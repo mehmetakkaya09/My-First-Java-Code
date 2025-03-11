@@ -2,6 +2,8 @@ package day_38.accessModifiers.B;
 
 import day_38.accessModifiers.A.Klasse1;
 
+import java.util.ArrayList;
+
 public class Kinder2 extends Klasse1 {
 
     public Kinder2(){
@@ -25,9 +27,10 @@ public class Kinder2 extends Klasse1 {
         System.out.println("Kinderklasse spiel method");
     }
 
+    //Weil ArrayList Kinder von List ist, können wir überschreiben
     @Override
-    public String spiel(String spielName){
-        return spielName;
+    public ArrayList<String> spiel(String spielName){
+        return new ArrayList<>();
     }
 
 
