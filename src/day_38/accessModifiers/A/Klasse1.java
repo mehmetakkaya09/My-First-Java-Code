@@ -29,4 +29,17 @@ public class Klasse1 {
         publicInstance = "public";
     }
 
+    //Method overloading : In gleicher Klasse, mit gleicher Name, mit verschiedenen parametern
+    // Zurückgabetyp ist nicht wichtig
+    // Access Modifier ist auch nicht wichtig
+    public void spiel() {
+        System.out.println("Elternklasse spiel method");
+    }
+
+    protected String spiel(String spielName) {
+        return spielName;
+    }
+
+
+
 }

@@ -7,4 +7,6 @@ public class Kinder1 extends Klasse1{
     }
 
 
+
+
 }
