@@ -9,6 +9,11 @@ public class _06HidingTest {
         kinder3.method();
 
 
+        Kinder4 kinder4 = new Kinder4();
+
+        kinder4.superMethod();
+        System.out.println("*********************************");
+        kinder4.kinderMethod();
 
 
     }
