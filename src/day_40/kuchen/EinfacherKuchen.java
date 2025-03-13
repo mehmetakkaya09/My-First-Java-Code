@@ -8,7 +8,7 @@ public class EinfacherKuchen extends BaseKuchen{
     @Override
     public void mischen() {
         System.out.println("Geben Sie diese Zutaten in die Rührschlüssel.");
-        System.out.println("Mindestens 5 Münuten rühren!");
+        System.out.println("Mindestens 5 Minuten rühren!");
         System.out.println("Mehl      :" + getMehl());
         System.out.println("Zucker    :" + getZucker());
         System.out.println("Eier      :" + getEier());
@@ -18,13 +18,5 @@ public class EinfacherKuchen extends BaseKuchen{
         setIstGemischt(true);
     }
 
-    @Override
-    public void backen() {
-        if (getIstGemischt()) {
-            System.out.println("Da Sie den Kuchen gemischt haben, können Sie ihn backen!");
-        }else {
-            System.out.println("Sie können den Kuchen nicht backen, da Sie ihn nicht gemischt haben!!");
-            System.out.println("Mischen Sie zuerst!!");
-        }
-    }
+
 }

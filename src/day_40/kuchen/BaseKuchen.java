@@ -67,6 +67,13 @@ public abstract class BaseKuchen {
     }
 
     public abstract void mischen();
-    public abstract void backen();
+    public void backenÜberprüfen(){
+        if (getIstGemischt()) {
+            System.out.println("Da Sie den Kuchen gemischt haben, können Sie ihn backen!");
+        }else {
+            System.out.println("Sie können den Kuchen nicht backen, da Sie ihn nicht gemischt haben!!");
+            System.out.println("Mischen Sie zuerst!!");
+        }
+    }
 
 }

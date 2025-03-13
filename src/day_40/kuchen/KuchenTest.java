@@ -12,10 +12,13 @@ public class KuchenTest {
         einfacherKuchen.mischen();
         System.out.println("einfacherKuchen.getIstGemischt() = " + einfacherKuchen.getIstGemischt());
 
-        einfacherKuchen.backen();
+        einfacherKuchen.backenÜberprüfen();
+        System.out.println("************************************");
 
+        SchokoladenKuchen schokoladenKuchen = new SchokoladenKuchen(300, 250, 3, 1000, 80, 220);
+        //schokoladenKuchen.mischen();
 
-
+        schokoladenKuchen.backenÜberprüfen();
 
 
 
