@@ -1,6 +1,6 @@
 package day_38.inheriitence.form;
 
-public class Form {
+public abstract class Form {
 
     private String farbe;
 
@@ -25,10 +25,14 @@ public class Form {
         System.out.println("Eine Form wird gezeichnet..");
     }
 
+    //public abstract double umfang(double radius);
+
     public double flaecheBerechnen() {
         System.out.println("Berechnung der Flache der Form..");
         return 0;
     }
+
+    public static void formInfo(){}
 
     @Override
     public String toString() {

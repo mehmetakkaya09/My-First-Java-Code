@@ -26,6 +26,8 @@ public class Kreis extends Form {
         System.out.println("Eine Kreis wird gezeichnet..");
     }
 
+
+
     @Override // Annotation
     public double flaecheBerechnen() {
         return Math.PI * this.radius * this.radius;

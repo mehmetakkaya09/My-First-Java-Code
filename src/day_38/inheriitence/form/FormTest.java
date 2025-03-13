@@ -6,6 +6,8 @@ public class FormTest {
 
         Kreis kreis =new Kreis("Gelb", 3);
 
+        //Form form = new Form("BLAU");
+
         kreis.zeichnen();
         System.out.println("kreis.flaecheBerechnen() = " + kreis.flaecheBerechnen());
 
