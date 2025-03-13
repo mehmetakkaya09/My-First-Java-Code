@@ -10,7 +10,9 @@ public class KuchenFabrik {
 
     public KuchenFabrik(String name) {
         this.name = name;
+        kuchens = new ArrayList<>();
     }
+
     public void addKuchen(BaseKuchen kuchen) {
         kuchens.add(kuchen);
     }
@@ -23,9 +25,12 @@ public class KuchenFabrik {
                 schokoladenKuchen++;
             }else if (kuchen instanceof EinfacherKuchen) {
                 einfacherKuchen++;
+            } else if (kuchen instanceof WalnussKuchen) {
+                walnussKuchen++;
             }
         }
         System.out.println("Schokoladen Kuchen anzahl: " + schokoladenKuchen);
         System.out.println("Einfacher Kuchen anzahl: " + einfacherKuchen);
+        System.out.println("Walnuss Kuchen anzahl: " + walnussKuchen);
     }
 }

@@ -26,6 +26,14 @@ public class KuchenTest {
 
         walnussKuchen.backenÜberprüfen();
 
+        KuchenFabrik kuchenFabrik = new KuchenFabrik("Süsse");
+
+        kuchenFabrik.addKuchen(einfacherKuchen);
+        kuchenFabrik.addKuchen(schokoladenKuchen);
+        kuchenFabrik.addKuchen(walnussKuchen);
+
+        kuchenFabrik.kuchenInfo();
+
     }
 
 }
