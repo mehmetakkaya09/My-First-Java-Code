@@ -20,8 +20,6 @@ public class KuchenTest {
 
         schokoladenKuchen.backenÜberprüfen();
 
-
-
     }
 
 }
