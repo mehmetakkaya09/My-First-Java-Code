@@ -20,6 +20,12 @@ public class KuchenTest {
 
         schokoladenKuchen.backenÜberprüfen();
 
+        WalnussKuchen walnussKuchen = new WalnussKuchen(300, 250, 3, 1000, 80, 500);
+
+        walnussKuchen.mischen();
+
+        walnussKuchen.backenÜberprüfen();
+
     }
 
 }
