@@ -5,7 +5,9 @@ public class Fisch extends BaseTiere implements Swimmible{
     public Fisch(String name, int alter, String farbe) {
         super(name, alter, farbe);
     }
-
+//    default void method(){
+//
+//    }
     @Override
     public void essen() {
         System.out.println(getName() + " isst Plankton");

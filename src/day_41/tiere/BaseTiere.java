@@ -12,6 +12,10 @@ public abstract class BaseTiere {
         this.farbe = farbe;
     }
 
+//    default void method(){
+//
+//    }
+
 
     public int getAlter() {
         return alter;
