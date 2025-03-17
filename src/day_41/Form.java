@@ -2,6 +2,8 @@ package day_41;
 
 public interface Form {
 
+    // Interfaces sind Vorlage von Klassen
+
     // In Interfaces können wir NUR public static final variables benutzen
     public static final double PI = 3.14;
 

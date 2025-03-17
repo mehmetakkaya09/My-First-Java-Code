@@ -14,7 +14,7 @@ public abstract class BaseForm {
         this.farbe = farbe;
     }
 
-    public abstract void abstractMethod();
+    //public abstract void abstractMethod();
 
     //Instance Method ist möglich
     public void nonAbstractMethod(){
