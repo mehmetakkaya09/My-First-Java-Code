@@ -1,15 +1,17 @@
 package day_41;
 
+import day_41.enumeration.Farbe;
+
 public abstract class BaseForm {
 
     //instances ist möglich
     private String name;
 
     //alle accessmodifiers kann man benutzen
-    private String farbe;
+    private Farbe farbe;
 
     //Constructor ist möglich
-    public BaseForm(String name, String farbe){
+    public BaseForm(String name, Farbe farbe){
         this.name = name;
         this.farbe = farbe;
     }
@@ -29,11 +31,11 @@ public abstract class BaseForm {
         this.name = name;
     }
 
-    public String getFarbe() {
+    public Farbe getFarbe() {
         return farbe;
     }
 
-    public void setFarbe(String farbe) {
+    public void setFarbe(Farbe farbe) {
         this.farbe = farbe;
     }
 }

@@ -1,11 +1,13 @@
 package day_41;
 
+import day_41.enumeration.Farbe;
+
 public class Kreis extends BaseForm implements Form{
 
     //Klassen sind Vorlage von Objekten
     private double radius;
 
-    public Kreis(String farbe, double radius) {
+    public Kreis(Farbe farbe, double radius) {
         super("Kreis", farbe);
         this.radius = radius;
     }
