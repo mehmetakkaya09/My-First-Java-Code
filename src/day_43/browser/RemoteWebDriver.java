@@ -1,11 +1,11 @@
 package day_43.browser;
 
-public class RemoteWebDriver implements WebDriver, TakeScreenshot, JavaScriptExecuter{
+public abstract class RemoteWebDriver implements WebDriver, TakeScreenshot, JavaScriptExecuter{
     private BrowserType browserName;
 
     public RemoteWebDriver(BrowserType browserName) {
         this.browserName = browserName;
-        System.out.println("Öffnen des Browsers: " + browserName);
+        System.out.println("Öffnen des Browsers: " + browserName.name());
     }
 
     public BrowserType getBrowserName() {
