@@ -34,6 +34,8 @@ public class DriverTest {
             if (driver instanceof ChromeDriver chromeDriver) {
                 //((ChromeDriver)driver).specialMethodForChrome();
                 chromeDriver.specialMethodForChrome();// Pattern Matching
+            } else if (driver instanceof FirefoxDriver firefoxDriver) {
+                //firefoxDriver.
             }
 
 
