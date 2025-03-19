@@ -31,6 +31,12 @@ public class DriverTest {
             System.out.println(driver.getBrowserName().name());
             System.out.println();
 
+            if (driver instanceof ChromeDriver chromeDriver) {
+                //((ChromeDriver)driver).specialMethodForChrome();
+                chromeDriver.specialMethodForChrome();// Pattern Matching
+            }
+
+
             driver.get("https://www.amazon.de/");
 
             System.out.println(driver.getTitle());
@@ -50,10 +56,6 @@ public class DriverTest {
             System.out.println("**************************************");
             System.out.println();
         }
-
-
-
-
 
 
     }
