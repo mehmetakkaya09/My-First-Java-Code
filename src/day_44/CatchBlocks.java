@@ -15,7 +15,7 @@ public class CatchBlocks {
 
             try {
                 res = num1 / num2;
-            } catch (ArithmeticException e) {
+            } catch (ArithmeticException e) { // exception
                 System.out.println(e.getMessage());
                 num2 = 2;
                 res = num1 / num2;
@@ -23,7 +23,7 @@ public class CatchBlocks {
 
             arr[2] = res; // wenn Java ArrayIndexOutOfBoundsException sieht, spring Java Compiler direkt catch Block und überprüft catch Block
             System.out.println(arr[2]);
-        } catch (
+        } catch ( // exception
                 ArrayIndexOutOfBoundsException e) { // Wenn diese Exception fehlende Kode handeln kann, java funktioniert catch block. Sonst wirft Java diese nicht gehandelte Exception
             System.out.println(e.getMessage());
             arr[0] = res;
@@ -40,13 +40,13 @@ public class CatchBlocks {
             str.charAt(9);
             arr[2] = 5;
         //} catch (IndexOutOfBoundsException e) { catch blocks haben eine bestimmte Reihe. Frühere catch block muss immer gleich oder kleiner als nachste catch blocks sein
-        } catch (ArrayIndexOutOfBoundsException e) {
+        } catch (ArrayIndexOutOfBoundsException e) {// exception
             System.out.println(e.getMessage());
-        } catch (StringIndexOutOfBoundsException e) {
+        } catch (StringIndexOutOfBoundsException e) {// exception
             System.out.println(e.getMessage());
-        } catch (IndexOutOfBoundsException e) {
+        } catch (IndexOutOfBoundsException e) {// exception
             System.out.println(e.getMessage());
-        } catch (OutOfMemoryError e) {
+        } catch (OutOfMemoryError e) {              // error
             System.out.println(e.getMessage());
         }
 
