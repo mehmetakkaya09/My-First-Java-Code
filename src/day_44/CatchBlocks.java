@@ -12,7 +12,6 @@ public class CatchBlocks {
         int[] arr = new int[1];
 
         try {
-
             try {
                 res = num1 / num2;
             } catch (ArithmeticException e) { // exception
@@ -20,7 +19,6 @@ public class CatchBlocks {
                 num2 = 2;
                 res = num1 / num2;
             }
-
             arr[2] = res; // wenn Java ArrayIndexOutOfBoundsException sieht, spring Java Compiler direkt catch Block und überprüft catch Block
             System.out.println(arr[2]);
         } catch ( // exception
@@ -39,7 +37,7 @@ public class CatchBlocks {
             //arr2 = new int[2_000_000_000];
             str.charAt(9);
             arr[2] = 5;
-        //} catch (IndexOutOfBoundsException e) { catch blocks haben eine bestimmte Reihe. Frühere catch block muss immer gleich oder kleiner als nachste catch blocks sein
+            //} catch (IndexOutOfBoundsException e) { catch blocks haben eine bestimmte Reihe. Frühere catch block muss immer gleich oder kleiner als nachste catch blocks sein
         } catch (ArrayIndexOutOfBoundsException e) {// exception
             System.out.println(e.getMessage());
         } catch (StringIndexOutOfBoundsException e) {// exception
@@ -54,9 +52,9 @@ public class CatchBlocks {
             System.out.println("3. Try block");
             str.charAt(9);
             arr[2] = 5;
-        }catch (Exception e) {
+        } catch (Exception e) {
             System.out.println("letzte catch = " + e.getMessage());
-        }finally {
+        } finally {
             System.out.println("finally block : " + " Scanner ist geschlossen.. DB ist geschlossen");
         }
 
