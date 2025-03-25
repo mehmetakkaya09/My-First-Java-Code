@@ -73,8 +73,6 @@ public class _02LinkedList {
         System.out.println("*******************************");
 
 
-
-
     }
 
 }
