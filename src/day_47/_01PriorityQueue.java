@@ -4,7 +4,7 @@ import java.util.NoSuchElementException;
 import java.util.PriorityQueue;
 import java.util.Queue;
 
-public class _011PriorityQueue {
+public class _01PriorityQueue {
 
     public static void main(String[] args) {
 
