@@ -9,6 +9,7 @@ public class _03HashSet {
 
         // Es gibt keine Ordnung
         // Set erlaubt Duplikaten nicht
+        // man kann nur ein "null" Wert speichern
         Set<String> names = new HashSet<>();
 
         names.add("Vadim");
@@ -16,6 +17,7 @@ public class _03HashSet {
         names.add("Vadim");
         names.add("Blagoja");
         names.add("Blagoja");
+        names.add("Süreyya");
         names.add("Süreyya");
         names.add("Süreyya");
         names.add("Süreyya");

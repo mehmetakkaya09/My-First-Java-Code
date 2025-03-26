@@ -48,5 +48,21 @@ public class _04TreeSet {
 
         numbers.forEach(System.out::println);
 
+        // natural order - Ascii Table order
+        // Grosse Buchstaben kommt immer vor der kleinen Buchstaben
+        TreeSet<String> names = new TreeSet<>();
+        names.add("Süreyya");
+        names.add("Süreyya");
+        names.add("blagoja");
+        names.add("Boris");
+        names.add("Vadim");
+        names.add("Mehmet");
+        names.add("9");
+        names.add(".");
+        names.add(":");
+        names.add("!");
+
+        names.forEach(System.out::println);
+
     }
 }
