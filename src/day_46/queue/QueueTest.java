@@ -1,6 +1,7 @@
 package day_46.queue;
 
 import java.util.LinkedList;
+import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.Queue;
 
@@ -10,6 +11,9 @@ public class QueueTest {
 
         //FIR - First in First out
         Queue<String> namesQueue = new LinkedList<>();
+        //List<String> namesList = new LinkedList<>();
+
+
 
         namesQueue.add("Mehmet");
         namesQueue.add("Vadim");
@@ -46,6 +50,9 @@ public class QueueTest {
             System.out.println("Es gibt keine Element in Queue");
         }
         namesQueue.poll();
+
+        // In Queue Interface gibt es keine Index. Wir können mit dem indexnummer unsere Elementen nicht erreichen.
+        //namesQueue.get()
 
 
     }
