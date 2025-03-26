@@ -22,7 +22,7 @@ public class _011PriorityQueue {
 
         System.out.println(numbers);
 
-        if (numbers.peek() == -7){
+        if (numbers.peek() == -7) {
             System.out.println("If Condition : " + numbers.peek());
             numbers.remove();
         }
@@ -58,6 +58,7 @@ public class _011PriorityQueue {
         // natural order - Ascii Table order
         // Grosse Buchstaben kommt immer vor der kleinen Buchstaben
         names.add("Süreyya");
+        names.add("Süreyya");
         names.add("blagoja");
         names.add("Boris");
         names.add("Vadim");
@@ -67,7 +68,7 @@ public class _011PriorityQueue {
         names.add(":");
         names.add("!");
 
-
+        names.forEach(System.out::println);
 
         System.out.println("names.peek() = " + names.peek());
         System.out.println("names.poll() = " + names.poll());
