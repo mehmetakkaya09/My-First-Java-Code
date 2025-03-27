@@ -9,7 +9,7 @@ public class _01HashMap {
         Map<String, Double> salaries = new HashMap<>();
 
         // Maps haben keine index
-        // Maps erlauben Duplikaten nicht.
+        // Maps(Keys) erlauben Duplikaten nicht.
         // Keys müssen immer einzigartig sein.
         // Wenn man ein Key zweimal definieren, kann man nur den Wert von Key verandern.
                   //SCHLUSSEL     WERT
@@ -18,6 +18,7 @@ public class _01HashMap {
         salaries.put("Blagoja", 70_000.0);
         salaries.put("Süreyya", 60_000.0);
         salaries.put("Vadim", 60_000.0);
+
 
         System.out.println(salaries);
 

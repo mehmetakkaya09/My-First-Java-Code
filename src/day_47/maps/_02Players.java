@@ -19,8 +19,8 @@ public class _02Players {
 
         System.out.println("spielersMap.get(7) = " + spielersMap.get(7));
         System.out.println("spielersMap.get(11) = " + spielersMap.get(11));
-        System.out.println("spielersMap.get(0) = " + spielersMap.get(0));
-        System.out.println("spielersMap.get(\"Benzema\") = " + spielersMap.get("Benzema"));
+        System.out.println("spielersMap.get(0) = " + spielersMap.get(0)); // null
+        System.out.println("spielersMap.get(\"Benzema\") = " + spielersMap.get("Benzema")); //null
 
 
     }

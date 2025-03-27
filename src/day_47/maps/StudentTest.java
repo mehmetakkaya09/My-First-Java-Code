@@ -13,7 +13,7 @@ public class StudentTest {
         Student student2 = new Student("Süreyya", 2000, 80);
         Student student3 = new Student("Blagoja", 3000, 95);
 
-        studentMap.put(student1.getId(), student1);
+        studentMap.put(1000, student1);
         studentMap.put(student2.getId(), student2);
         studentMap.put(student3.getId(), student3);
 
