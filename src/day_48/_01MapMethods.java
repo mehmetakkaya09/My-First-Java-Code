@@ -38,5 +38,10 @@ public class _01MapMethods {
         System.out.println("fruits.containsValue(2.0) = " + fruits.containsValue(2.0));
         System.out.println("fruits.containsValue(2.5) = " + fruits.containsValue(2.5));
 
+        System.out.println("fruits.size() = " + fruits.size());
+
+        fruits.clear();
+
+        System.out.println("fruits.size() = " + fruits.size());
     }
 }
