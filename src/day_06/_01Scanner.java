@@ -6,6 +6,7 @@ public class _01Scanner {
 
     public static void main(String[] args) {
 
+        // um etwas(aus Benutzer Eingabe) einzulesen benutzen wir Scanner
         Scanner input = new Scanner(System.in);
 
         System.out.print("Enter an int number: ");
@@ -50,6 +51,10 @@ public class _01Scanner {
         input.nextLine();
         System.out.print("Geben Sie ein Satz ein : ");
         String satz = input.nextLine();
+        Integer.parseInt(satz);
+        Double.parseDouble(satz);
+        Boolean.parseBoolean(satz);
+        Long.parseLong(satz);
 
         System.out.println("satz nextLine() = " + satz);
 

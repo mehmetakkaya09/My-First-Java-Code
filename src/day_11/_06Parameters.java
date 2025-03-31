@@ -31,9 +31,6 @@ public class _06Parameters {
         vote(true);
 
 
-
-
-
     }
 
     public static void biggerNumber(int a, int b) {

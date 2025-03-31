@@ -6,6 +6,7 @@ public class StringPool {
 
         String str1 = "Hello"; // String kann nicht verandern.
         String str9 = "hello";
+        String str10 = "hello";
         System.out.println("str1 == str9 = " + (str1 == str9));
         System.out.println("System.identityHashCode(str1) = " + System.identityHashCode(str1));
 

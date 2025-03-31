@@ -7,7 +7,7 @@ public class _03IndexOf {
         String str = "Java ist gut, Java ist besser, java ist am besten";
 
         System.out.println(str.indexOf("ist"));
-        System.out.println(str.indexOf("Java"));
+        System.out.println(str.indexOf("ava"));
         System.out.println(str.indexOf(" "));
         System.out.println(str.indexOf("Python")); // -1
         System.out.println(str.indexOf("java"));

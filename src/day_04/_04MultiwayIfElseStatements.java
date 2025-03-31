@@ -4,6 +4,11 @@ public class _04MultiwayIfElseStatements {
 
     public static void main(String[] args) {
 
+        // wenn gehalt zwischen 1000-2000
+        // wenn gehalt zwischen 2000-3000
+        // wenn gehalt zwischen 4000-5000
+        //1453
+
         int dayOfWeek = 70;
 
         if (dayOfWeek == 1) {

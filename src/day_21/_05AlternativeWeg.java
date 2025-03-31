@@ -30,7 +30,7 @@ public class _05AlternativeWeg {
         String[] tage = {"Montag", "Dienstag", "Mittwoch"};
 
         System.out.println(tage[1]);
-
+//
 //        int nums14[];
 //
 //        nums14 = {1,2,3,4,5};

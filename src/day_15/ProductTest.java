@@ -2,7 +2,7 @@ package day_15;
 
 public class ProductTest {
 
-    String name;
+    String name; // Heap
 
     public static void main(String[] args) {
 

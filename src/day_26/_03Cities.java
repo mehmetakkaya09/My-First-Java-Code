@@ -15,7 +15,7 @@ public class _03Cities {
         cities.add("Berlin");
         cities.add("Wien");
         cities.add("New York");
-        cities.add("Bochum");
+        cities.set(1,"Bochum");
         cities.add("New York");
         cities.add("New York");
 

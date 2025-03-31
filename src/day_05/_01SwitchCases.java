@@ -2,13 +2,17 @@ package day_05;
 
 public class _01SwitchCases {
 
+    String day; // null
+
     public static void main(String[] args) {
 
         //In Switch Cases können wir nur byte, short, integer, char oder String benutzen.
         // Wir vergleichen immer ein wert in Switch Cases
 
+
+
         int day = 1;
-        String strDay = "";
+        String strDay = ""; // local variables haben keine default Werte deswegen sie müssen immer intialisiert werden
         String dayType = "";
         if (day > 0 && day < 8) {
             switch (day) {
