@@ -28,4 +28,5 @@ public class Clothing extends Product{
         System.out.println("Size: " + size);
         System.out.println("Price: " + getPrice());
     }
+
 }
