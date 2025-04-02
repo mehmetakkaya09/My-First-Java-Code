@@ -18,7 +18,7 @@ public class Driver extends Person implements Payable{
     }
 
     public void driveVehicle(){
-        System.out.println("I am a Driver and I driver a/an " + this.getVehicle());
+        System.out.println("I am a Driver and I drive a/an " + this.getVehicle());
     }
 
     @Override
