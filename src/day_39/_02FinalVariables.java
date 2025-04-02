@@ -15,7 +15,7 @@ public class _02FinalVariables {
     final static String staticFinal2;
 
     static {
-        staticFinal2 = "staticFinal2";// 2. Option: man kann innerhalb static Block initialisieren
+        staticFinal2 = "staticFinal2"; // 2. Option: man kann innerhalb static Block initialisieren
     }
 
     public _02FinalVariables(){

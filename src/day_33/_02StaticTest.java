@@ -8,7 +8,9 @@ public class _02StaticTest {
 
         obj.instanceMethod();
 
+
         System.out.println(_01StaticMethods.staticVariable);
+        _01StaticMethods.staticMethod();
 
 
     }

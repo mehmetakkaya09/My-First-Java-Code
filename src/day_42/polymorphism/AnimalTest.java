@@ -64,6 +64,7 @@ public class AnimalTest {
             }else if (tier instanceof Cat) {
                 //Wir müssen downcasting machen weil scratch() method innerhalb Animal Class nicht befindet
                 ((Cat) tier).scratch();
+                //tier.scratch();
             }else if (tier instanceof Duck) {
                 ((Duck) tier).fly();
             }

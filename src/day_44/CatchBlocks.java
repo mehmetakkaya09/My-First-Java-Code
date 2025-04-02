@@ -1,11 +1,54 @@
 package day_44;
 
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
 public class CatchBlocks {
 
     public static void main(String[] args) {
 
-        int num1 = 5;
+        int num1 = 0;
         int num2 = 0;
+
+        Scanner sc = new Scanner(System.in);
+
+
+        try {
+            System.out.println("Geben Sie erste Nummer ein : ");
+            num1 = Integer.parseInt(sc.nextLine());
+
+            System.out.println("Geben Sie zweite Nummer ein : ");
+            num2 = Integer.parseInt(sc.nextLine());
+        } catch (InputMismatchException e) {
+            System.out.println("Nummer muss Integer sein Bitte geben Sie ein Integer!!!");
+            System.out.println("Geben Sie erste Nummer ein : ");
+            num1 = Integer.parseInt(sc.nextLine());
+
+            System.out.println("Geben Sie zweite Nummer ein : ");
+            num2 = Integer.parseInt(sc.nextLine());
+        } catch (NumberFormatException e) {
+            System.out.println("Nummer muss Integer sein Bitte geben Sie ein Integer!!!");
+            System.out.println("Geben Sie erste Nummer ein : ");
+            num1 = Integer.parseInt(sc.nextLine());
+
+            System.out.println("Geben Sie zweite Nummer ein : ");
+            num2 = Integer.parseInt(sc.nextLine());
+        }
+
+        // Frage   : Was ist dein grosstes Problem beim Testing?
+        // Antwort : Flaky Tests
+        // Wenn Sie ein Fehler manchmal bekommen, manchmal nicht bekommen, ist es Flaky Test.
+        // Beispiel: Sie werden auf einem Button klicken
+        // manchmal kann Selenium auf diese Button finden und klicken
+        // manchmal kann Selenium auf diese Button nicht finden und nicht klicken
+
+        // Meistens automatisieren diese Flaky Tests nicht.
+        // Manchmal müssen wir diese Tests auch automatisieren.
+
+        // Wir müssen für diese Situation
+        // 1 - unsere Flaky Test Koden (möglich fehlerhafte Koden) innerhalb "try" Block schreiben
+        // 2 - innerhalb "catch" Block müssen wir diese Fehler fangen/handeln/lösen
+        // catch (NoSuchElementException nsee)
 
         int res = 0;
 
@@ -18,6 +61,7 @@ public class CatchBlocks {
                 System.out.println(e.getMessage());
                 num2 = 2;
                 res = num1 / num2;
+
             }
             arr[2] = res; // wenn Java ArrayIndexOutOfBoundsException sieht, spring Java Compiler direkt catch Block und überprüft catch Block
             System.out.println(arr[2]);

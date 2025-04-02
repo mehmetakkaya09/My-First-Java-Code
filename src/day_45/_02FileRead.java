@@ -7,12 +7,12 @@ import java.util.Scanner;
 
 public class _02FileRead {
 
-    public static void main(String[] args) {
+    public static void main(String[] args)  {
 
         File file = new File("src/day_45/data.txt");
 
         Scanner reader;// = new Scanner(file); // Datenbank, API,
-
+        //reader = new Scanner(file); // checked Exception
         try {
             reader = new Scanner(file); // checked Exception
             System.out.println("Daten werden eingelesen..");

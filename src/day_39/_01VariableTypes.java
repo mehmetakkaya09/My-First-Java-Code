@@ -29,7 +29,6 @@ public class _01VariableTypes {
     }
 
     public static void main(String[] args) {
-
         staticVariable = "static Variable";
         //instanceVariable = "";
         //static String staticVariable;

@@ -20,4 +20,6 @@ public class Rechteck extends Form{
     public double flaeche() {
         return laenge * breite;
     }
+
+    //public abstract double umfang2();
 }

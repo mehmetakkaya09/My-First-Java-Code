@@ -2,6 +2,8 @@ package day_35.fahrzeug;
 
 public class Fahrzeug {
 
+    // DRY Prinzip
+
     String marke;
     String modelle;
     int jahr;

@@ -2,7 +2,7 @@ package day_44;
 
 import java.util.ArrayList;
 
-public class OutOfMemoryExceptionExample {
+public class OutOfMemoryErrorExample {
 
     public static void main(String[] args) {
 

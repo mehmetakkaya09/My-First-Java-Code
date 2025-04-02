@@ -13,5 +13,9 @@ public class MonateTest {
 
         System.out.println("Monate.istGültigerMonat(\"september\") = " + (Monate.istGültigerMonat("september")));
         System.out.println("Monate.istGültigerMonat(\"montag\") = " + (Monate.istGültigerMonat("montag")));
+
+        for (Monate value : Monate.values()) {
+            System.out.println(value.name());
+        }
     }
 }

@@ -2,7 +2,9 @@ package day_41;
 
 public interface Form {
 
-    // Interfaces sind Vorlage von Klassen
+    // Interfaces sind die Vorlage von Klassen
+
+    // Klassen sind die Vorlage von Objekten
 
     // In Interfaces können wir NUR public static final variables benutzen
     public static final double PI = 3.14;
@@ -23,7 +25,7 @@ public interface Form {
     double flaeche();
 
     // In Interfaces kann man instance methoden nicht benutzen und implementieren
-    // um Instance methoden zu implementiereni müssen wir "default" methoden benutzen
+    // um Instance methoden zu implementieren müssen wir "default" methoden benutzen
     default void info(){
         System.out.println("Ich bin eine Form");
     }

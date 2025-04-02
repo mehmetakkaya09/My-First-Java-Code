@@ -18,9 +18,8 @@ public class _01StaticMethods {
     // static methoden gehören zur Klasse. Jede objekt und alle Klassemitgliedern verwenden nur eine static method
     // static methoden sind NICHT ABHANGIG von Objekten
     public static void staticMethod() {
-
         System.out.println("StaticMethod wurde ausgeführt");
-        //inneehalb einer static Method können wir eine instance variable oder instance Method nicht.
+        //innerhalb einer static Method können wir eine instance variable oder instance Method nicht.
         Math.pow(2,3);
         //System.out.println(instanceVariable);
         //instanceMethod();

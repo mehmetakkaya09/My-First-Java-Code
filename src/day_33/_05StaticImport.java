@@ -1,5 +1,7 @@
 package day_33;
 
+import day_32.Rechner;
+
 import static day_32.Rechner.*;
 
 import static java.lang.Math.pow;

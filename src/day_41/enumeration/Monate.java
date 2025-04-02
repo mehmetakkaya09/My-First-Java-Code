@@ -40,7 +40,7 @@ public enum Monate {
     }
 
     public static boolean istGültigerMonat(String monat){
-        for (Monate monate : Monate.values()) {
+        for (Monate monate : values()) {
             if (monate.name().equalsIgnoreCase(monat)) {
                 return true;
             }
