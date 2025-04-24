@@ -48,6 +48,11 @@ public class ScrumTeam {
         developers.addAll(Arrays.asList(developerArray));
     }
 
+    public void getAllDevTeam(){
+        testers.forEach(tester -> System.out.println(tester.getName()));
+        developers.forEach(developer -> System.out.println(developer.getName()));
+    }
+
     @Override
     public String toString() {
         return "ScrumTeam{" +
