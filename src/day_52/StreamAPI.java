@@ -50,6 +50,16 @@ public class StreamAPI {
         int[] limitArray = Arrays.stream(arr3).limit(5).skip(2).toArray();
         System.out.println(Arrays.toString(limitArray));
 
+        List<Integer> list4 = new ArrayList<>(Arrays.asList(1,2,3,4,5,6,7,8,9,10));
+        List<Integer> mapList = list4.stream().map(num -> num * 10).toList();
+        System.out.println(mapList);
+
+        List<String> names = new ArrayList<>(Arrays.asList("   Vadim     ", "   Blagoja      ", "      Süreyya       ", "       Mehmet       "));
+        System.out.println(names);
+        List<String> mapTrim = names.stream().map(name -> name.trim()).toList();
+        System.out.println(mapTrim);
+
+
 
     }
 
