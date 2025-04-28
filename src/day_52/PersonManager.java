@@ -6,6 +6,7 @@ import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class PersonManager {
 
@@ -19,6 +20,15 @@ public class PersonManager {
         Person person3 = new Person("Mehmet", "+905302224444      ", "Aydın         ");
 
         List<Person> people = new ArrayList<>(Arrays.asList(person1, person2, person3));
+
+        List<Person> updatedPeople = people.stream()
+                .map(person -> {
+                    person.setName(person.getName().trim());
+                    person.setPhone(person.getPhone().trim());
+                    person.setAddress(person.getAddress().trim().substring(0, 3)); // Trim sonrası ilk 3 harfi al
+                    return person; // Güncellenmiş kişiyi geri döndür
+                })
+                .collect(Collectors.toList());
 
 
 
